@@ -19,7 +19,8 @@ funders had no role in study design, data collection and analysis, decision to p
 Competing Interests: The authors have declared that no competing interests exist.
 * E-mail: sediment@sas.upenn.edu
 
-소개입니다
+소개
+
 개울에서 조약돌을 운반하는 것은 그것들이 충돌하고 문지르게 합니다.
 서로 부딪히고 개울 바닥, 그리고 그 결과로 생긴 마모입니다.
 익숙한 매끄럽고 둥근 모양의 강 바위를 만들어냅니다.
@@ -175,12 +176,19 @@ n?2(상 I) 방향으로 떨어진 다음 n = 상수<2(상 II)로 유지되었으
 ![image](https://user-images.githubusercontent.com/102294660/192265397-c637d315-e970-4dcd-adc1-bc9205d3572c.png)
 Figure 1. Definition sketch.
 (a) 2D schematic of the physical situation studied, showing an abrading cuboid colliding with a flat plane. Zone of positive curvature on the colliding corner is highlighted with arrows indicating surface-normal abrasion. (b) Three scenarios of the chopping model: Vertex chopping (Event A) corresponding to Gaussian-curvature-driven abrasion, edge chopping (Event B) corresponding to Mean-Curvature-driven abrasion, and face chopping (Event C) corresponding to uniform (Eikonal) abrasion
+그림 1입니다. 정의 스케치입니다.
+(a) 연구된 물리적 상황의 2D 도식은 마모된 입방체가 평면과 충돌하는 것을 보여줍니다. 충돌 모서리의 양의 곡률 영역은 표면-정상 마모를 나타내는 화살표로 강조 표시됩니다. (b) 절단 모델의 세 가지 시나리오: 가우스 곡률 구동 마모에 해당하는 꼭짓점 절단(이벤트 A), 평균 곡률 구동 마모에 해당하는 에지 절단(이벤트 B), 균일(에이코날) 마모에 해당하는 면 절단(이벤트 C)입니다.
+
 
 ![image](https://user-images.githubusercontent.com/102294660/192265668-85adbd2a-2cda-443a-963a-0020ae430936.png)
 Figure 2. Two-phase abrasion illustration. The 2D schematic shows two well-separated phases emerging spontaneously from Gaussiancurvature-driven abrasion: In Phase I edges abrade but axis ratios remain constant; in Phase II, axis ratios evolve towards the sphere. Accompanying
 perspective images are topographic laser scans that illustrate the two phases in 3D; they were performed for a separate experiment with a smaller
 cuboid having similar axis ratios.
 doi:10.1371/journal.pone.0088657.g002
+그림 2입니다. 2상 마모 그림입니다. 2D 도식은 가우스 곡률 구동 마모에서 자연스럽게 나타나는 두 가지 잘 분리된 단계를 보여줍니다. 1단계에서는 축 비율이 일정하지만, 2단계에서는 축 비율이 구를 향해 진화합니다. 동행합니다
+투시 이미지는 3D의 두 단계를 보여주는 지형 레이저 스캔입니다. 그것들은 더 작은 실험을 위해 수행되었습니다.
+축 비율이 비슷한 입방체입니다.
+doi:10.1371/journal.pone.0088657.g002입니다.
 
 
 수준 설정 방법 [27,28](방법 참조), 다음과 같이 계수를 선택합니다.
@@ -221,11 +229,18 @@ Firey의 모형(등식 1)입니다. 1단계에서는 볼록성이 급격히 증�
 Figure 3. Experimental images of abrasion. Three rows correspond to three orthogonal views of the specimen, and columns show time
 evolution in terms of number of drum rotations. Separation of Phases I and II can be observed by visual inspection.
 doi:10.1371/journal.pone.0088657.g003
+그림 3입니다. 마모의 실험 이미지입니다. 세 행은 검체의 세 직교 뷰에 해당하며 열은 시간을 나타냅니다.
+드럼 회전 수 측면에서 진화했습니다. 1단계와 2단계의 분리는 육안 검사를 통해 관찰할 수 있습니다.
+doi:10.1371/journal.pone.0088657.g003입니다.
 
 
-![image](https://user-images.githubusercontent.com/102294660/192266495-09eef9d7-4c50-4aa6-9ebd-026bbbbbd0ec.png)
+![image](https://user-images.githubusercontent.com/102294660/192268319-3c3e3773-4e79-4af0-b35b-0f99c80ed8ca.png)
+
 Figure 4. Comparison of experimental and numerical results
 . (a–e) Evolution of shape parameters versus volume, V. Shown are: axis ratios (a) y1 and (b) y2, (c) convexity index β, (d) Wadell sphericity, r, and (e) superellipsoid exponent, n. (f) Evolution of V versus the rotation number (rot), a proxy for time. Gray line: experimental data. Black solid line: level-set method approximation of the PDE (Eq. 2). Dashed line: chopping model approximation (Eq. 3). Best fit coefficients correspond to pure Gaussian flow. Note abrupt change for all shape parameters (a–e) at transition from Phase I to Phase II, shown with vertical dashed line. Pebble volume exhibits no abrupt change through time (f); the fitted exponential trend is identical in Phase I and Phase II. Data used to generate this figure are contained in File S1. 
+그림 4입니다. 실험 결과와 수치 결과를 비교합니다.
+. (a–e) 형상 모수 대 부피의 진화, V입니다. 표시된 것은 축 비율(a) y1 및 (b) y2, (c) 볼록도 지수 베타, (d) Wadeell 구형도, r, 그리고 (e) 초우량체 지수, n. (f) V 대 회전수(rot), 시간의 프록시입니다. 회색 선: 실험 데이터입니다. 검은색 실선: PDE의 레벨 설정 방법 근사치(Eq.2)입니다. 점선: 절단 모델 근사치(등식 3)입니다. 최적 적합 계수는 순수 가우스 흐름에 해당합니다. 단계 I에서 단계 II로 전환할 때 수직 점선으로 표시된 모든 형상 모수(a–e)가 갑자기 변경되었음을 기록합니다. 자갈 부피는 시간(f)에 따라 급격한 변화를 보이지 않습니다. 적합 지수 추세는 1단계와 2단계에서 동일합니다. 이 수치를 생성하는 데 사용된 데이터는 파일 S1에 포함되어 있습니다.
+
 
 초정질체입니다. 1단계는 n의 빠른 하락을 보였고 2단계는 n의 빠른 하락을 보였습니다.
 거의 일정한 n&2를 나타냈습니다(그림 4).
@@ -319,14 +334,8 @@ a = 0.03은 1단계 마모에 대한 최소 길이를 산출합니다.
 스트림의 [4,10,34]입니다. 이 거리를 시간 척도로 변환합니다.
 조약돌 운반 및 매몰에 대한 자세한 지식이 필요할 것입니다.
 현재 작업의 범위를 벗어난 강의 통계입니다.
-[2 참조). 그러나 우리는 질적인 영향을 식별할 수 있습니다.
-마찰이 없는 단일 입자 드럼에 비해 1단계를 연장합니다.
-실험: (a) 마찰이 지배하는 마모, 평평한 구역입니다.
-슬라이딩 마찰의 영향을 받으므로 평탄도를 유지합니다 [29]; (b) 작게 유지하십시오.
-악어는 Eq. 2의 첫 번째 (상수) 항을 지배하게 합니다.
-마찰과 유사한 방식으로 면이 평평하게 됩니다. 그리고 (c)
-f 및 g 계수가 서로 일치하는 경우, 집단 마모입니다.
-마모된 입자 [29,35]입니다.
+그림 1입니다. 정의 스케치입니다.
+(a) 연구된 물리적 상황의 2D 도식은 마모된 입방체가 평면과 충돌하는 것을 보여줍니다. 충돌 모서리의 양의 곡률 영역은 표면-정상 마모를 나타내는 화살표로 강조 표시됩니다. (b) 절단 모델의 세 가지 시나리오: 가우스 곡률 구동 마모에 해당하는 꼭짓점 절단(이벤트 A), 평균 곡률 구동 마모에 해당하는 에지 절단(이벤트 B), 균일(에이코날) 마모에 해당하는 면 절단(이벤트 C)입니다.
 
 그리고 상수항은 처음에 있을 것입니다.
 핵심적인 역할을 합니다 [36]. 우리는 또한 자연에서 심지어 잘 둥근 조약돌도 거의 구형이 아니라는 것을 주목합니다; 비구형적 제한.
@@ -464,18 +473,22 @@ P의 충격 위치는 표면을 기준으로 랜덤하게 선택됩니다.
 여기서 검사한 실험과 관련이 없지만 포함되어 있습니다.
 완벽을 기하기 위해서요 많은 충돌에 대한 평균 마모율입니다.
 는 등식 3에 의해 주어집니다.
-지원 정보입니다.
+
+Supporting Information.
 파일 S1 모든 데이터를 포함하는 Excel 스프레드시트 파일입니다.
 드럼 실험으로부터 질량과 형태 진화에 관한 것입니다.
 그리고 수치 시뮬레이션이 생성에 사용되었습니다.
 그림 4입니다.
 (XLS)입니다.
-인정합니다.
+
+Acknowledgement
+.
 이를 개선한 통찰력 있는 의견을 주신 Mikael Atal에게 진심으로 감사드립니다.
 원고를 쓰세요 작가들은 Sarolta Bodor, Gula Emszt에게 빚을 졌습니다.
 Ba'lint Pa'linka's와 Otto's Sebestyeen은 그들의 귀중한 도움에 대해 감사를 표합니다.
 실험입니다.
-작성자가 기여합니다.
+
+Author Contributions.
 실험을 구상하고 디자인했습니다. GDAAS입니다. 수행했습니다.
 실험: GDAT. 데이터를 분석했습니다: GD DJJ AAS. 기여했어요
 시약/재료/분석 도구: GDAAS입니다. DJJ GD라는 논문을 썼습니다.
