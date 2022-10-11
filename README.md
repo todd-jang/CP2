@@ -1,4 +1,5 @@
 🎯 Code States Project 2 소개
+
 Code States Project 2 는 부트캠프 수료 전 마지막 프로젝트 입니다.
 해당 페이지는 공통 사항에 대한 안내입니다. (진행 기간, 제출물, 공통 문의사항 등)
 
