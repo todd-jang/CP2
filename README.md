@@ -595,4 +595,4 @@ Author Contributions.
 실험: GDAT. 데이터를 분석했습니다: GD DJJ AAS. 기여했어요
 시약/재료/분석 도구: GDAAS입니다. DJJ GD라는 논문을 썼습니다.
 
-references는 생략합니다
+references는 생략합니다 (repo내 file.pdf참조)
